@@ -1,4 +1,11 @@
 svn-updater
-=================
+===========
 主要供触发远程版本更新之用，trigger为触发器，listener为监听器
 
+build
+-----
+build目录为可执行的程序，使用py2exe生成后
+
+src
+---
+src目录为源代码
