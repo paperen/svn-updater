@@ -11,10 +11,14 @@ if __name__ == "__main__":
 	if host == '':
 		host = 'localhost'
 
-	port = raw_input( '\n请输入SVN监听器端口(默认为9999)\n' )
+	print '监听器地址为' + host + '\n'
+	
+	port = raw_input( '请输入SVN监听器端口(默认为9999)\n' )
 	if port == '':
 		port = 9999
 
+	print '监听器端口为' + repr( port ) + '\n'
+		
 	cmd = 'update'
 
 try:
