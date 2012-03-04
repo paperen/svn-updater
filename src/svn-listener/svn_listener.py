@@ -50,6 +50,8 @@ if __name__ == "__main__" :
 	if port == '':
 		port = 9999
 	
+	print '开始监听...\n'
+	
 	# 监听本地
 	host = 'localhost'
 
