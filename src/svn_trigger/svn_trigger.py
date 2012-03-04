@@ -32,3 +32,5 @@ try:
 	
 except:
 	print '无法跟SVN监听器连接，请检查其是否开启'
+
+raw_input('');
