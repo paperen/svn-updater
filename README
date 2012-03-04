@@ -1,0 +1,4 @@
+svn-updater
+=================
+主要供触发远程版本更新之用，trigger为触发器，listener为监听器
+
